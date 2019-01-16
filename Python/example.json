@@ -1,21 +1,38 @@
 {
 	"Actors": {
-		"Character" : {
-			"HP": 10
+		"Goblin Slayer" : {
+			"HP": 15,
+            "MP": 0
 		},
 		"Goblin" : {
-			"HP": 4
+			"HP": 4,
+            "MP": 0
 		},
-		"Giant" : {
-			"HP": 40
+		"Ogre" : {
+			"HP": 40,
+            "MP": 0
 		},
 		"Hobgoblin" : {
-			"HP": 10
-		}
+			"HP": 10,
+            "MP": 0
+		},
+        "Priestess" : {
+            "HP": 8,
+            "MP": 3
+        }
 	},
 	"Weapons": {
 		"Short Sword" : {
 			"Damage": 3
+		},
+		"Dagger" : {
+			"Damage": 1
+		},
+		"Wooden Club" : {
+			"Damage": 5
+		},
+		"Metal Club" : {
+			"Damage": 7
 		}
 	}
 }
