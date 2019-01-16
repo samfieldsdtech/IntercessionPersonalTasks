@@ -1,0 +1,21 @@
+{
+	"Actors": {
+		"Character" : {
+			"HP": 10
+		},
+		"Goblin" : {
+			"HP": 4
+		},
+		"Giant" : {
+			"HP": 40
+		},
+		"Hobgoblin" : {
+			"HP": 10
+		}
+	},
+	"Weapons": {
+		"Short Sword" : {
+			"Damage": 3
+		}
+	}
+}
