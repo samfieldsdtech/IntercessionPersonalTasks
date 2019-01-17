@@ -36,7 +36,13 @@ def main():
 				data["Weapons"][key]["Damage"])
 		print(output_string)        
 	# TODO: Add a new data category along side Actors and Weapons, put in any relevant data.
-
+	base_string = "{0} has {1} Damage {0} has {2} HP "
+	for key in data["Spells"]:
+		output_string = base_string.format(
+				key, 
+				data["Spells"][key]["Damage"],
+				data["Spells"][key]["HP"])
+		print(output_string)
 
 if __name__ == '__main__':
     main()

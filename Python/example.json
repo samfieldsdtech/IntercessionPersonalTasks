@@ -19,7 +19,15 @@
         "Priestess" : {
             "HP": 8,
             "MP": 3
-        }
+        },
+		"Dwarf" : {
+			"HP": 12,
+			"MP": 4
+		},
+		"Lizard Priest" : {
+			"HP": 12,
+			"MP": 6
+		}
 	},
 	"Weapons": {
 		"Short Sword" : {
@@ -34,5 +42,36 @@
 		"Metal Club" : {
 			"Damage": 7
 		}
+	},
+	"Spells": {
+		"Protection" : {
+			"Damage": 0,
+			"HP": 100
+		},
+		"Heal" : {
+			"Damage": 0,
+			"HP": 5
+		},
+		"Light" : {
+			"Damage": 0,
+			"HP": 0
+		},
+		"Stone Shot" : {
+			"Damage": 10,
+			"HP": 0
+		},
+		"Crash Control" : {
+			"Damage": 30,
+			"HP": 0
+		},
+		"Fireball" : {
+			"Damage": 20,
+			"HP": 0
+		},
+		"Summon" : {
+			"Damage": 3,
+			"HP": 10
+		}
 	}
+	
 }
